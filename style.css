@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://source.unsplash.com/1600x1080/?landscape");
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  height: 400px;
+  width: 550px;
+  border-radius: 30px;
+}
+
+.input {
+  background-color: rgb(41, 39, 39);
+  border-radius: 15px;
+  opacity: 0.6;
+  border: none;
+  height: 30px;
+  width: 410px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.search {
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: rgb(41, 39, 39);
+  border-radius: 40px;
+  opacity: 0.6;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 30px;
+  margin-right: 50px;
+}
+
+.content {
+  margin-left: 50px;
+}
+
+.weather {
+  display: flex;
+  margin-bottom: -12px;
+}
+
+.icon {
+  height: 45px;
+  width: 40px;
+}
