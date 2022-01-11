@@ -26,6 +26,12 @@ body {
   margin-left: 50px;
   margin-top: 40px;
   text-indent: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+::placeholder {
+  color: white;
 }
 
 .search {
@@ -41,6 +47,7 @@ body {
   font-size: 20px;
   height: 30px;
   margin-right: 50px;
+  cursor: pointer;
 }
 
 .content {
@@ -55,4 +62,8 @@ body {
 .icon {
   height: 45px;
   width: 40px;
+}
+
+.climate {
+  text-transform: capitalize;
 }
