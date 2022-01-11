@@ -24,7 +24,7 @@ body {
   height: 30px;
   width: 410px;
   margin-left: 50px;
-  margin-top: 40px;
+  margin-top: 65px;
   text-indent: 10px;
   color: white;
   font-size: 18px;
@@ -56,14 +56,24 @@ body {
 
 .weather {
   display: flex;
-  margin-bottom: -12px;
-}
-
-.icon {
-  height: 45px;
-  width: 40px;
+  align-items: center;
+  margin-bottom: -5px;
 }
 
 .climate {
   text-transform: capitalize;
+}
+
+.location {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.humidity {
+  margin-bottom: 8px;
 }
